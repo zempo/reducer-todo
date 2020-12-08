@@ -50,6 +50,7 @@ const ToDoList = () => {
                   <FontAwesomeIcon icon={faSquare} className='square' />
                 )}
               </span>
+              &nbsp;
               {todo.todo}
             </p>
           ))}
